@@ -1,5 +1,5 @@
-import {Layouter} from './Layouter';
-import {LayoutItem} from './LayoutItem';
+import { Layouter } from './Layouter';
+import { LayoutItem } from './LayoutItem';
 
 let l = new Layouter();
 
@@ -8,7 +8,7 @@ beforeEach(() => {
 });
 
 test('placeItem should place first item in center', () => {
-  let item = createItem(20, 20);
+  const item = createItem(20, 20);
   l.placeItem(item, 0, 0);
 
   expect(item.setX).toHaveBeenCalledWith(-10);
