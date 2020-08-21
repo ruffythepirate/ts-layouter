@@ -1,0 +1,24 @@
+{
+  "name": "ts-layouter",
+  "version": "1.0.0",
+  "description": "A library that assist with layouting graphs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruffythepirate/ts-layouter.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Layout",
+    "Graphs"
+  ],
+  "author": "Johan Ablett-Karlsson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruffythepirate/ts-layouter/issues"
+  },
+  "homepage": "https://github.com/ruffythepirate/ts-layouter#readme"
+}
