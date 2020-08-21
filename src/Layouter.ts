@@ -1,10 +1,18 @@
 import { Polygon } from 'ts-2d-geometry';
 import { LayoutItem } from './LayoutItem';
+import { Optional, none } from '@ruffy/ts-optional';
+
 /**
  * Class that handles layout. You add items implementing the LayoutItem interface to the layout,
  * and the class will incrementally call setX, setY on the added items.
  */
 export class Layouter {
+
+  private layoutShape: Optional<Polygon>;
+
+  constructor() {
+    this.layoutShape = none;
+  }
 
   /**
    * Places the given layout item as close to the given point as possible, without overlapping any
