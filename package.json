@@ -48,5 +48,8 @@
   "bugs": {
     "url": "https://github.com/ruffythepirate/ts-layouter/issues"
   },
-  "homepage": "https://github.com/ruffythepirate/ts-layouter#readme"
+  "homepage": "https://github.com/ruffythepirate/ts-layouter#readme",
+  "dependencies": {
+    "ts-2d-geometry": "^2.0.4"
+  }
 }
