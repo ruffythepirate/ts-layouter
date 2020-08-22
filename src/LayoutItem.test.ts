@@ -1,11 +1,10 @@
 import { LayoutItem, layoutItemToPolygon } from './LayoutItem';
 import { Polygon, Point } from 'ts-2d-geometry';
 
-
 test('layoutItemToPolygon should create well shaped polygon', () => {
-  let pol = layoutItemToPolygon(createItem(40, 20), 5, 5);
+  const pol = layoutItemToPolygon(createItem(40, 20), 5, 5);
 
-  expect(pol).toEqual(polygon([[5,5], [45, 5], [45, 25], [5, 25]]));
+  expect(pol).toEqual(polygon([[5, 5], [45, 5], [45, 25], [5, 25]]));
 });
 
 function polygon(points: number[][]) {

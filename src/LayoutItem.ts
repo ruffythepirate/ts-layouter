@@ -11,6 +11,14 @@ export interface LayoutItem {
   setY: (y: number) => void;
 }
 
+/**
+ * Creates a polygon entity from a layout item. X and Y coordinates of the top left corner
+ * must be specified.
+ * @param x
+ * The x coordinate of the top left corner.
+ * @param y
+ * The y coordinate of the top left corner.
+ */
 export function layoutItemToPolygon(item: LayoutItem, x: number, y:number): Polygon {
   return Polygon.fromPoints([
     new Point(x, y),
