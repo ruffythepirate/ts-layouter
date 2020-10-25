@@ -13,6 +13,7 @@
     "test:badge": "npx lcov-badge-generator -o coverage/badge.svg coverage/lcov.info",
     "test:watch": "npx jest --watchAll src"
   },
+  "sideEffects": false,
   "jest": {
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
@@ -34,14 +35,14 @@
     "Graphs"
   ],
   "devDependencies": {
-    "@types/jest": "^25.2.2",
+    "@types/jest": "^25.2.3",
     "@types/node": "^14.0.1",
     "jest": "^25",
     "ts-jest": "^25.5.1",
     "tslint": "^6.1.2",
     "tslint-config-airbnb": "^5.11.2",
     "typedoc": "^0.17.6",
-    "typescript": "^3.9.2"
+    "typescript": "^3.9.7"
   },
   "author": "Johan Ablett-Karlsson",
   "license": "MIT",
@@ -51,6 +52,6 @@
   "homepage": "https://github.com/ruffythepirate/ts-layouter#readme",
   "dependencies": {
     "@ruffy/ts-optional": "^1.0.0",
-    "ts-2d-geometry": "^2.1"
+    "ts-2d-geometry": "^2.1.0"
   }
 }
