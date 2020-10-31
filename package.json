@@ -52,6 +52,6 @@
   "homepage": "https://github.com/ruffythepirate/ts-layouter#readme",
   "dependencies": {
     "@ruffy/ts-optional": "^1.0.0",
-    "ts-2d-geometry": "^2.1.0"
+    "ts-2d-geometry": "^3"
   }
 }
