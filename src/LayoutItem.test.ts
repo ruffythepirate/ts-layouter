@@ -1,5 +1,5 @@
 import { LayoutItem, layoutItemToPolygon } from './LayoutItem';
-import { Polygon, Point } from 'ts-2d-geometry';
+import { Polygon, Point } from 'ts-geometry-visualizer';
 
 test('layoutItemToPolygon should create well shaped polygon', () => {
   const pol = layoutItemToPolygon(createItem(40, 20), 5, 5);

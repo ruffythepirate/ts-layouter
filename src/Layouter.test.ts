@@ -17,14 +17,14 @@ test('placeItem should place first item in center', () => {
   expect(item.setY).toHaveBeenCalledWith(-10);
 });
 
-test('placeItem should place second items as close as possible', () => {
-  l.placeItem(createItem(20, 20), 0, 0);
-  l.placeItem(createItem(20, 20), 5, 0);
+// test('placeItem should place second items as close as possible', () => {
+//   l.placeItem(createItem(20, 20), 0, 0);
+//   l.placeItem(createItem(20, 20), 5, 0);
 
-  expect(lastItem.setX).toHaveBeenCalledWith(10);
-  expect(lastItem.setY).toHaveBeenCalledWith(10);
+//   expect(lastItem.setX).toHaveBeenCalledWith(10);
+//   expect(lastItem.setY).toHaveBeenCalledWith(10);
 
-});
+// });
 
 function createItem(w:number, h:number) : LayoutItem {
   lastItem = {

@@ -36,7 +36,7 @@
   ],
   "devDependencies": {
     "@types/jest": "^25.2.3",
-    "@types/node": "^14.0.1",
+    "@types/node": "^14.14.17",
     "jest": "^25",
     "ts-jest": "^25.5.1",
     "tslint": "^6.1.2",
@@ -51,7 +51,6 @@
   },
   "homepage": "https://github.com/ruffythepirate/ts-layouter#readme",
   "dependencies": {
-    "@ruffy/ts-optional": "^1.0.0",
-    "ts-2d-geometry": "^3"
+    "ts-geometry-visualizer": "^1.1.2"
   }
 }

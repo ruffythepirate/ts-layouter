@@ -1,4 +1,4 @@
-import { Point, Polygon } from 'ts-2d-geometry';
+import { Point, Polygon } from 'ts-geometry-visualizer';
 
 /**
  * Interface for items that has a width and a height, and contains a method that can set their
